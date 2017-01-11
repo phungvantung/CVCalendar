@@ -47,11 +47,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let currentCalendar = currentCalendar {
-            monthLabel.text = CVDate(date: Date(), calendar: currentCalendar).globalDescription
-        }
-        
-        randomizeDotMarkers()
+//        if let currentCalendar = currentCalendar {
+//            monthLabel.text = CVDate(date: Date(), calendar: currentCalendar).globalDescription
+//        }
+//        
+//        randomizeDotMarkers()
     }
     
     @IBAction func removeCircleAndDot(sender: AnyObject) {
